@@ -1,0 +1,21 @@
+* {
+  font-family: "gilroyblack", arial;
+}
+
+.section-one__text {
+  font-family: gilroylight, arial;
+}
+.button {
+  font-family: montserratblack, arial;
+}
+
+.section-two__text {
+  font-family: gilroyultralight, arial;
+}
+
+.form__input {
+  font-family: gilroyultralight, arial;
+}
+.copyright > span {
+  font-family: robotothin, arial;
+}
