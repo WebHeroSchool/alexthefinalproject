@@ -1,16 +1,92 @@
+body {
+  margin: 0;
+}
+
 * {
   font-family: "gilroyblack", arial;
 }
 
-.section-one__text {
-  font-family: gilroylight, arial;
-}
-.button {
-  font-family: montserratblack, arial;
+.header {
+  padding: 4.2vw 0 4.2vw 9vw;
+  background: #3030C1;
 }
 
-.section-two__text {
-  font-family: gilroyultralight, arial;
+.header__logo {
+  background:  url('img/logo.svg') no-repeat;
+  background-size: cover;
+  width: 12.6vw;
+  height: 3.3vw;
+  }
+
+.section-one {
+  width: 100%;
+  height: 46.6vw;
+  background: no-repeat url(img/section1.svg) #3030C1;
+  background-size: 39.2vw 32.2vw;
+  background-position: 51.8vw 1.3vw;
+}
+
+.section-one__block {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5vw 48.3vw 16.7vw 9vw;
+}
+
+span {
+  white-space: nowrap;
+}
+
+.section-one__title {
+  font-weight: 800;
+  font-size: 3.13vw;
+  line-height: 3.82vw;
+  color: #FFF;
+  margin-bottom: .2vw;
+}
+
+.subtitle {
+  font-weight: 800;
+  font-size: 2.08vw;
+  line-height: 2.57vw;
+}
+
+.subtitle_yellow {
+  color: #FFCC33;
+  padding-right: 18vw;
+  margin-bottom: .65vw;
+}
+
+.section-one__text {
+  font-family: gilroylight, arial, helvetica;
+  font-weight: 300;
+  font-size: 1.4vw;
+  line-height: 1.6vw;
+  margin: 0 0 2.4vw 0;
+  padding-right: 10vw;
+  color: #FFF;
+}
+
+.section-one__button {
+  padding: 1vw 1.7vw;
+  background: #FFCC33;
+  color: #3030C1;
+}
+
+.button {
+  width: max-content;
+  font-family: montserratblack, arial, helvetica;
+  font-weight: 900;
+  font-size: 1.39vw;
+  line-height: 1.6vw;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.section-one__button:hover {
+  opacity: .5;
+  color: red;
 }
 
 .form__input {
